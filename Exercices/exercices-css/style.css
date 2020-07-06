@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.gray-text {
+  color: gray;
+}
+.red-text {
+  color: red;
+}
+.yellow-text {
+  color: yellow;
+}
+.blue-text {
+  color: blue;
+}
+.orange-text {
+  color: orangered;
+}
+a:hover {
+  color: #000000;
+  text-transform: uppercase;
+}
+a::before {
+  content: '==>';
+  margin-top: 2em;
+  text-align: center;
+}
+a::after {
+  content: '<==';
+  margin-top: 2em;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+table,
+td,
+th {
+  border: 1px solid red;
+}
+
+tr:nth-child(odd) {
+  background-color: crimson;
+}
+tr:nth-child(even) {
+  background-color: yellow;
+}
+tr:hover {
+  color: aquamarine;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: chartreuse;
+}
