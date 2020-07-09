@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#carre {
+  width: 200px;
+  height: 200px;
+  animation: move 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: move;
+}
+@keyframes move {
+  0% {
+    transform: translateX(600px) translateY(0px);
+    background-color: red;
+  }
+  25% {
+    transform: translateX(0px) translateY(100px);
+    background-color: green;
+  }
+  50% {
+    transform: translateX(0px) translateY(100px);
+    background-color: indigo;
+  }
+  75% {
+    transform: translateX(500px) translateY(100px);
+    background-color: goldenrod;
+  }
+}
